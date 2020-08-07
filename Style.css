@@ -503,6 +503,8 @@ footer {
   width: 60%;
   margin: auto;
   overflow: hidden;
+  position:relative;
+  border: 2px solid black;
 }
 .carousel-slide {
   display: flex;
@@ -511,33 +513,6 @@ footer {
 .carousel-slide img {
   width: 100%;
   height: auto;
-}
-.slideControl {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#prevBtn,
-#nextBtn {
-  cursor: pointer;
-  background: transparent;
-  font-size: 30px;
-  border: none;
-  color: white;
-  text-shadow: 2px 3px 5px black;
-}
-#prevBtn:hover,
-#nextBtn:hover {
-  cursor: pointer;
-  background: transparent;
-  font-size: 30px;
-  border: none;
-  color: black;
-  text-shadow: 2px 3px 5px white;
 }
 @media only screen and (min-width: 1300px) and (max-width: 1600px) {
   body {
