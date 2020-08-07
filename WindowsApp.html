@@ -1,139 +1,113 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="Description" content="Web developer located in GTA.">
-    <title>KC:UWP project</title>
-    <meta name="viewport" content="width:device-width initial-scale=1.0">
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kishorkumar Chauhan | PHP Project</title>
+  <meta name="description"
+    content="Skilled and motivated Junior Web Developer passionate about working for dynamic projects">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="Images/logo/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="Images/logo/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="Images/logo/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="Images/logo/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="Images/logo/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="Images/logo/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="Images/logo/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="Images/logo/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="Images/logo/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="Images/logo/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Images/logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="Images/logo/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Images/logo/favicon-16x16.png">
+  <link rel="manifest" href="Images/logo/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="Images/logo/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <script src="https://kit.fontawesome.com/025c479427.js" crossorigin="anonymous"></script>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 
-<link rel="stylesheet" href="Style.css">
-
-<link rel="apple-touch-icon" sizes="57x57" href="Images/logo/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="Images/logo/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="Images/logo/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="Images/logo/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="Images/logo/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="Images/logo/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="Images/logo/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="Images/logo/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="Images/logo/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="Images/logo/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="Images/logo/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="Images/logo/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="Images/logo/favicon-16x16.png">
-<link rel="manifest" href="Images/logo/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="Images/logo/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-
-<script type="text/javascript">
-  var wow = new WOW(
-{
-  boxClass:     'wow',      // animated element css class (default is wow)
-  animateClass: 'animated', // animation css class (default is animated)
-  offset:       0,          // distance to the element when triggering the animation (default is 0)
-  mobile:       true,       // trigger animations on mobile devices (default is true)
-  live:         true,       // act on asynchronously loaded content (default is true)
-  callback:     function(box) {
-    // the callback is fired every time an animation is started
-    // the argument that is passed in is the DOM node being animated
-  },
-  scrollContainer: null,    // optional scroll container selector, otherwise use window,
-  resetAnimation: true,     // reset animation on end (default is true)
-}
-);
-
-wow.init();
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.width = "auto";
-    document.getElementById("logo").style.fontWeight = "normal";
-    document.getElementById("navbar").style.boxShadow = "0 0 10px grey";
-  } else {
-    document.getElementById("navbar").style.padding = "20px 10px";
-    document.getElementById("logo").style.fontWeight = "bold";
-  }
-};
-</script>
+  <link rel="stylesheet" href="Style.css">
 
 </head>
-  <body class="" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navbar">
-      <a class="navbar-brand" href="index.html">
-        <img src="Images/KC logo.png" alt="Logo" style="width:75px; height: 75px;"> K.Chauhan
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="Index.html#section1">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Index.html#section2">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Index.html#section3">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Index.html#section4">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Index.html#section5">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Index.html#section6">Contact</a>
-          </li>
-        </ul>
-        
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <a class="navbar-brand name" href="index.html">K.Chauhan</a>
+    <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="my-nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link active" href="index.html/#section1">About </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html#section2">Skills </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html#section3">Portfolio </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html#section4">Education </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html#section5">Experience </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html#section6">Contact </a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <section id="container">
+    <div id="main">
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <img src="./Images/WeatherApp/UWP/Slide5.PNG" alt="" id="lastClone">
+          <img src="./Images/WeatherApp/UWP/Slide1.PNG" alt="">
+          <img src="./Images/WeatherApp/UWP/Slide2.PNG" alt="">
+          <img src="./Images/WeatherApp/UWP/Slide3.PNG" alt="">
+          <img src="./Images/WeatherApp/UWP/Slide4.PNG" alt="">
+          <img src="./Images/WeatherApp/UWP/Slide5.PNG" alt="" id="firstClone">
+
+          <div class="slideControl">
+            <button id="prevBtn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button id="nextBtn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+
       </div>
-    </nav>
-<div id="" class="container-fluid" style="height: 500px;" >
-  <h4 class="text-dark text-center pb-2" style="background: rgba(153,117,51, 0.1);">Preview of weather web app</h4>
-  <div id="demo" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-    <div class="carousel-item active">
-        <div class="row mb-5">
-          <div class="col-sm"><img class="d-block w-100 img img-thumbnail" src="Images/WeatherApp/UWP/Slide1.PNG" alt="1 slide"></div>
-          <div class="col-sm"><img class="d-block w-100 img img-thumbnail" src="Images/WeatherApp/UWP/Slide2.PNG" alt="2 slide"></div>
-          <div class="col-sm"><img class="d-block w-100 img img-thumbnail" src="Images/WeatherApp/UWP/Slide3.PNG" alt="3 slide"></div>
-        </div>
     </div>
-    <div class="carousel-item">
-        <div class="row mb-5">
-          <div class="col-sm"><img class="d-block w-100 img img-thumbnail" src="Images/WeatherApp/UWP/Slide4.PNG" alt="4 slide"></div>
-          <div class="col-sm"><img class="d-block w-100 img img-thumbnail" src="Images/WeatherApp/UWP/Slide5.PNG" alt="5 slide"></div>
-          <div class="col-sm"><img class="d-block w-100 img img-thumbnail"></div>
-        </div>
-    </div>
-    </div>
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-    </div>
-</div>
-</div>
-</div>
-<div class="clear">
-<footer class="container-fluid bg-secondary text-white" style="height:50px; line-height:3em;">
-  <p> &copy; 2020 Kishorkumar Chauhan. All Rights Reserved. </p>
-</footer>
-  </body>
+  </section>
+
+  <footer class="bg-secondary text-white">
+    <hr>
+    <p class="">Copyright: &copy;2020 Kishorkumar Chauhan. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
 </html>
