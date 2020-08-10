@@ -503,7 +503,7 @@ footer {
   width: 60%;
   margin: auto;
   overflow: hidden;
-  position:relative;
+  position: relative;
   border: 2px solid black;
 }
 .carousel-slide {
@@ -520,7 +520,7 @@ footer {
     padding: 0;
   }
   #section1 {
-    height: 350px;
+    height: 250px;
     margin: 20px;
   }
   .header {
@@ -553,7 +553,7 @@ footer {
     padding: 0;
   }
   #section1 {
-    height: 250px;
+    height: 200px;
     margin: 20px;
   }
   .header {
@@ -599,7 +599,7 @@ footer {
     padding: 0;
   }
   #section1 {
-    height: 30vh;
+    height: 200px;
     margin: 0px;
   }
   .header {
@@ -730,16 +730,17 @@ footer {
 
 @media only screen and (min-width: 350px) and (max-width: 450px) {
   body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   #section1 {
-    height: 40vh;
-    margin: 0px;
+    height: 230px;
+    margin: 10px;
   }
   .header {
-    padding: 20px;
-    width: 400px;
+    padding: 10px;
+    width: 300px;
   }
   .header h1 {
     font-size: 1.8em;
@@ -752,6 +753,9 @@ footer {
   }
   .gallery {
     grid-template-columns: repeat(1, auto);
+  }
+  .card-title {
+    margin-top: -10px;
   }
   .card-back p a {
     margin: 0 10px;
@@ -779,7 +783,7 @@ footer {
     padding-left: 25px;
   }
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 350px) {
   body {
     margin: 0;
     padding: 0;
