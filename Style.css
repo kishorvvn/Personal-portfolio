@@ -546,6 +546,9 @@ footer {
   .gallery {
     grid-template-columns: repeat(3, auto);
   }
+  .carousel-container {
+    width: 90%;
+  }
 }
 @media only screen and (min-width: 900px) and (max-width: 1300px) {
   body {
@@ -592,6 +595,9 @@ footer {
   footer {
     height: 80px;
   }
+  .carousel-container {
+    width: 90%;
+  }
 }
 @media only screen and (min-width: 700px) and (max-width: 900px) {
   body {
@@ -637,6 +643,9 @@ footer {
   footer {
     height: 80px;
   }
+  .carousel-container {
+    width: 80%;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 700px) {
@@ -675,6 +684,9 @@ footer {
   }
   #section5 .content p {
     font-size: 0.8em;
+  }
+  .carousel-container {
+    width: 90%;
   }
 }
 @media only screen and (min-width: 450px) and (max-width: 600px) {
@@ -725,6 +737,9 @@ footer {
   }
   footer {
     height: 50px;
+  }
+  .carousel-container {
+    width: 100%;
   }
 }
 
@@ -781,6 +796,10 @@ footer {
   footer {
     height: 80px;
     padding-left: 25px;
+  }
+
+  .carousel-container {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 350px) {
